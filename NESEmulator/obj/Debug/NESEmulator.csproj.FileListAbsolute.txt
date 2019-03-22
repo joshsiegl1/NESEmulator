@@ -1,0 +1,6 @@
+c:\users\josh\documents\visual studio 2015\Projects\NESEmulator\NESEmulator\bin\Debug\NESEmulator.exe.config
+c:\users\josh\documents\visual studio 2015\Projects\NESEmulator\NESEmulator\bin\Debug\NESEmulator.exe
+c:\users\josh\documents\visual studio 2015\Projects\NESEmulator\NESEmulator\bin\Debug\NESEmulator.pdb
+c:\users\josh\documents\visual studio 2015\Projects\NESEmulator\NESEmulator\obj\Debug\NESEmulator.csprojResolveAssemblyReference.cache
+c:\users\josh\documents\visual studio 2015\Projects\NESEmulator\NESEmulator\obj\Debug\NESEmulator.exe
+c:\users\josh\documents\visual studio 2015\Projects\NESEmulator\NESEmulator\obj\Debug\NESEmulator.pdb
