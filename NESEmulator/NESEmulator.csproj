@@ -46,6 +46,7 @@
     <Compile Include="CPU\InstructionFactory.cs" />
     <Compile Include="CPU\Instructions\ADC.cs" />
     <Compile Include="CPU\Instructions\AND.cs" />
+    <Compile Include="CPU\Instructions\ASL.cs" />
     <Compile Include="CPU\Instructions\Instruction.cs" />
     <Compile Include="CPU\Instructions\NOP.cs" />
     <Compile Include="ExtensionMethods.cs" />

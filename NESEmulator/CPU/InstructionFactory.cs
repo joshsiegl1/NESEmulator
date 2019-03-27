@@ -30,7 +30,15 @@ namespace NESEmulator.CPU
                 case "3D":
                 case "21":
                 case "31":
-                    return new AND(OpCode); 
+                    return new AND(OpCode);
+                case "0A":
+                case "06":
+                case "16":
+                case "0E":
+                case "1E":
+                    return new ASL(OpCode);
+                case "90":
+                    return new BCC(OpCode); 
                 case "EA":
                     return new NOP(OpCode); 
             }
