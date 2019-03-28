@@ -38,7 +38,13 @@ namespace NESEmulator.CPU
                 case "1E":
                     return new ASL(OpCode);
                 case "90":
-                    return new BCC(OpCode); 
+                    return new BCC(OpCode);
+                case "B0":
+                    return new BCS(OpCode);
+                case "F0":
+                    return new BEQ(OpCode);
+                case "D0":
+                    return new BNE(OpCode); 
                 case "EA":
                     return new NOP(OpCode); 
             }
