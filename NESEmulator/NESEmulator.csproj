@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CPU\CPU.cs" />
     <Compile Include="CPU\InstructionFactory.cs" />
     <Compile Include="CPU\Instructions\ADC.cs" />
     <Compile Include="CPU\Instructions\AND.cs" />
