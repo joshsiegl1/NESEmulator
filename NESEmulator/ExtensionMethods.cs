@@ -12,5 +12,20 @@ namespace NESEmulator
         {
             return Convert.ToString(a, 2).PadLeft(8, '0');
         }
+
+        public static byte setBit(this byte a, int index)
+        {
+            return a |= (byte)(1 << index); 
+        }
+
+        public static byte clearBit(this byte a, int index)
+        {
+            return a &= (byte)~(1 << index); 
+        }
+
+        public static bool isBitSet(this byte a, int index)
+        {
+            return (a & (1 << index)) != 0; 
+        }
     }
 }
