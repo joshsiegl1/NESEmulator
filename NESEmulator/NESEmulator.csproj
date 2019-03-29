@@ -50,6 +50,7 @@
     <Compile Include="CPU\Instructions\BCC.cs" />
     <Compile Include="CPU\Instructions\BCS.cs" />
     <Compile Include="CPU\Instructions\BEQ.cs" />
+    <Compile Include="CPU\Instructions\BNE.cs" />
     <Compile Include="CPU\Instructions\Instruction.cs" />
     <Compile Include="CPU\Instructions\NOP.cs" />
     <Compile Include="ExtensionMethods.cs" />
