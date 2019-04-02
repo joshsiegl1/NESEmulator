@@ -25,17 +25,17 @@ namespace NESEmulator.CPU
 
         public void setStatusFlag(StatusFlag index)
         {
-            statusRegister |= (byte)(1 << (int)index);
+            statusRegister = statusRegister.setBit((int)index); 
         }
 
         public void clearStatusFlag(StatusFlag index)
         {
-            statusRegister &= (byte) ~(1 << (int)index); 
+            statusRegister = statusRegister.clearBit((int)index); 
         }
 
         public bool isFlagSet(StatusFlag index)
         {
-            return (statusRegister & (1 << (int)index)) != 0; 
+            return statusRegister.isBitSet((int)index);  
         }
 
     }
